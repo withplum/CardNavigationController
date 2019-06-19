@@ -10,7 +10,6 @@
 		A425A44A22AFD32000F67C23 /* CardNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425A44422AFD31F00F67C23 /* CardNavigationController.swift */; };
 		A425A44B22AFD32000F67C23 /* UIViewController+CardNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425A44622AFD32000F67C23 /* UIViewController+CardNavigationController.swift */; };
 		A425A44C22AFD32000F67C23 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425A44822AFD32000F67C23 /* CardView.swift */; };
-		A425A44D22AFD32000F67C23 /* CardButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425A44922AFD32000F67C23 /* CardButtonItem.swift */; };
 		A425A45022AFE8EF00F67C23 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A425A44F22AFE8EF00F67C23 /* SnapKit.framework */; };
 		A425A45922AFEB7600F67C23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425A45822AFEB7600F67C23 /* AppDelegate.swift */; };
 		A425A45B22AFEB7600F67C23 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425A45A22AFEB7600F67C23 /* RootViewController.swift */; };
@@ -64,7 +63,6 @@
 		A425A44422AFD31F00F67C23 /* CardNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardNavigationController.swift; sourceTree = "<group>"; };
 		A425A44622AFD32000F67C23 /* UIViewController+CardNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+CardNavigationController.swift"; sourceTree = "<group>"; };
 		A425A44822AFD32000F67C23 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		A425A44922AFD32000F67C23 /* CardButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardButtonItem.swift; sourceTree = "<group>"; };
 		A425A44F22AFE8EF00F67C23 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		A425A45622AFEB7500F67C23 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A425A45822AFEB7600F67C23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -147,7 +145,6 @@
 			isa = PBXGroup;
 			children = (
 				A425A44822AFD32000F67C23 /* CardView.swift */,
-				A425A44922AFD32000F67C23 /* CardButtonItem.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -470,7 +467,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A425A44D22AFD32000F67C23 /* CardButtonItem.swift in Sources */,
 				A4D3170C22B66E9800DB7126 /* CardNavigationControllerAppearance.swift in Sources */,
 				A425A44B22AFD32000F67C23 /* UIViewController+CardNavigationController.swift in Sources */,
 				A425A44C22AFD32000F67C23 /* CardView.swift in Sources */,
