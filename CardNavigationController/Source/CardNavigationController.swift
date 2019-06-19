@@ -12,10 +12,15 @@ import UIKit
 
 public final class CardNavigationController: UIViewController
 {
+    // Public
+    public private(set) var viewControllers = [UIViewController]()
+    
+    public var topViewController: UIViewController {
+        return self.viewControllers.last ?? self.rootViewController
+    }
+    
     // Private
     private let rootViewController: UIViewController
-    private var viewControllers = [UIViewController]()
-    
     private let cardView: CardView
     private let maximumMaskBackgroundAlpha: CGFloat = 0.75
     

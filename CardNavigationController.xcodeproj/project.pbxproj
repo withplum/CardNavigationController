@@ -232,8 +232,8 @@
 		A48BC9EC22AFBF060030EADF /* CardNavigationControllerTests */ = {
 			isa = PBXGroup;
 			children = (
-				A48BC9ED22AFBF060030EADF /* CardNavigationControllerTests.swift */,
-				A48BC9EF22AFBF060030EADF /* Info.plist */,
+				A4D3172422BA0D4B00DB7126 /* Source */,
+				A4D3172322BA0D4200DB7126 /* Supporting Files */,
 			);
 			path = CardNavigationControllerTests;
 			sourceTree = "<group>";
@@ -244,6 +244,30 @@
 				A4D3170B22B66E9800DB7126 /* CardNavigationControllerAppearance.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A4D3172322BA0D4200DB7126 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A48BC9EF22AFBF060030EADF /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4D3172422BA0D4B00DB7126 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A4D3172522BA0D9100DB7126 /* Tests */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A4D3172522BA0D9100DB7126 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A48BC9ED22AFBF060030EADF /* CardNavigationControllerTests.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -724,7 +748,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = URBNY2UJHN;
-				INFOPLIST_FILE = CardNavigationControllerTests/Info.plist;
+				INFOPLIST_FILE = "CardNavigationControllerTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -743,7 +767,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = URBNY2UJHN;
-				INFOPLIST_FILE = CardNavigationControllerTests/Info.plist;
+				INFOPLIST_FILE = "CardNavigationControllerTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
