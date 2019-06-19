@@ -19,6 +19,7 @@
 		A48BC9E922AFBF060030EADF /* CardNavigationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48BC9DF22AFBF060030EADF /* CardNavigationController.framework */; };
 		A48BC9EE22AFBF060030EADF /* CardNavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48BC9ED22AFBF060030EADF /* CardNavigationControllerTests.swift */; };
 		A48BC9F022AFBF060030EADF /* CardNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A48BC9E222AFBF060030EADF /* CardNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C69EC422BA393600084C9D /* UIViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C69EC322BA393600084C9D /* UIViewControllerTests.swift */; };
 		A4D3170722B5593A00DB7126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D3170622B5593A00DB7126 /* Assets.xcassets */; };
 		A4D3170C22B66E9800DB7126 /* CardNavigationControllerAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3170B22B66E9800DB7126 /* CardNavigationControllerAppearance.swift */; };
 		A4D3171222B7F5F400DB7126 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3171122B7F5F400DB7126 /* IntroductionViewController.swift */; };
@@ -76,6 +77,7 @@
 		A48BC9E822AFBF060030EADF /* CardNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48BC9ED22AFBF060030EADF /* CardNavigationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardNavigationControllerTests.swift; sourceTree = "<group>"; };
 		A48BC9EF22AFBF060030EADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C69EC322BA393600084C9D /* UIViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerTests.swift; sourceTree = "<group>"; };
 		A4D3170622B5593A00DB7126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4D3170B22B66E9800DB7126 /* CardNavigationControllerAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardNavigationControllerAppearance.swift; sourceTree = "<group>"; };
 		A4D3171122B7F5F400DB7126 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
@@ -263,6 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				A48BC9ED22AFBF060030EADF /* CardNavigationControllerTests.swift */,
+				A4C69EC322BA393600084C9D /* UIViewControllerTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -478,6 +481,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4C69EC422BA393600084C9D /* UIViewControllerTests.swift in Sources */,
 				A48BC9EE22AFBF060030EADF /* CardNavigationControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
