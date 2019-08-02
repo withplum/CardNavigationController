@@ -312,7 +312,6 @@
 				A48BC9DB22AFBF060030EADF /* Sources */,
 				A48BC9DC22AFBF060030EADF /* Frameworks */,
 				A48BC9DD22AFBF060030EADF /* Resources */,
-				A425A45122AFE8FB00F67C23 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -411,26 +410,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A425A45122AFE8FB00F67C23 /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
-			);
-			name = Carthage;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SnapKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
 		A425A46922AFEBB200F67C23 /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
