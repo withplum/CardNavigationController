@@ -23,7 +23,7 @@ let package = Package(
             path: "CardNavigationController"),
         .testTarget(
             name: "Tests",
-            dependencies: ["Spinosa"],
+            dependencies: ["CardNavigationController"],
             path: "Tests"),
     ]
 )
