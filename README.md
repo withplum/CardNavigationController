@@ -4,20 +4,13 @@
 
 ## Installation
 
-### Carthage
+### Swift Package Manager
 
 ```
-github "withplum/CardNavigationController" ~> 1.0
+dependencies: [
+    .package(url: "https://github.com/withplum/CardNavigationController", from: "1.0.0")
+]
 ```
-
-## Example Project
-
-1. Clone this repo.
-2. Install Carthage (if you don't already have it) `brew install carthage`.
-3. Run `carthage update`.
-4. Open `CardNavigationController.xcodeproj`.
-5. Select the `Example` scheme.
-6. Build!
 
 ## Usage
 

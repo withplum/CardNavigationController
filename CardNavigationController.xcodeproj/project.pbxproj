@@ -3,40 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A425A44A22AFD32000F67C23 /* CardNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425A44422AFD31F00F67C23 /* CardNavigationController.swift */; };
 		A425A44B22AFD32000F67C23 /* UIViewController+CardNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425A44622AFD32000F67C23 /* UIViewController+CardNavigationController.swift */; };
 		A425A44C22AFD32000F67C23 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425A44822AFD32000F67C23 /* CardView.swift */; };
-		A425A45022AFE8EF00F67C23 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A425A44F22AFE8EF00F67C23 /* SnapKit.framework */; };
-		A425A45922AFEB7600F67C23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425A45822AFEB7600F67C23 /* AppDelegate.swift */; };
-		A425A45B22AFEB7600F67C23 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A425A45A22AFEB7600F67C23 /* RootViewController.swift */; };
-		A425A46022AFEB7700F67C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A425A45F22AFEB7700F67C23 /* Assets.xcassets */; };
-		A425A46322AFEB7700F67C23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A425A46122AFEB7700F67C23 /* LaunchScreen.storyboard */; };
-		A425A46822AFEBA800F67C23 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A425A44F22AFE8EF00F67C23 /* SnapKit.framework */; };
+		A47AA1DC23533FEA00B49450 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A47AA1DB23533FEA00B49450 /* README.md */; };
+		A47AA2182353421000B49450 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A47AA2172353421000B49450 /* SnapKit */; };
 		A48BC9E922AFBF060030EADF /* CardNavigationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48BC9DF22AFBF060030EADF /* CardNavigationController.framework */; };
 		A48BC9EE22AFBF060030EADF /* CardNavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48BC9ED22AFBF060030EADF /* CardNavigationControllerTests.swift */; };
 		A48BC9F022AFBF060030EADF /* CardNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A48BC9E222AFBF060030EADF /* CardNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4C69EC422BA393600084C9D /* UIViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C69EC322BA393600084C9D /* UIViewControllerTests.swift */; };
 		A4D3170722B5593A00DB7126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D3170622B5593A00DB7126 /* Assets.xcassets */; };
 		A4D3170C22B66E9800DB7126 /* CardNavigationControllerAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3170B22B66E9800DB7126 /* CardNavigationControllerAppearance.swift */; };
-		A4D3171222B7F5F400DB7126 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3171122B7F5F400DB7126 /* IntroductionViewController.swift */; };
-		A4D3171422B7F72700DB7126 /* PageOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3171322B7F72700DB7126 /* PageOneViewController.swift */; };
-		A4D3171622B8B87600DB7126 /* PageTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3171522B8B87600DB7126 /* PageTwoViewController.swift */; };
-		A4D3171722B8E12B00DB7126 /* CardNavigationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48BC9DF22AFBF060030EADF /* CardNavigationController.framework */; };
-		A4D3171822B8E12B00DB7126 /* CardNavigationController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A48BC9DF22AFBF060030EADF /* CardNavigationController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A425A46A22AFEBDB00F67C23 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A48BC9D622AFBF060030EADF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A48BC9DE22AFBF060030EADF;
-			remoteInfo = CardNavigationController;
-		};
 		A48BC9EA22AFBF060030EADF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A48BC9D622AFBF060030EADF /* Project object */;
@@ -46,60 +30,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		A4D3171922B8E12B00DB7126 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				A4D3171822B8E12B00DB7126 /* CardNavigationController.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		A425A44422AFD31F00F67C23 /* CardNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardNavigationController.swift; sourceTree = "<group>"; };
 		A425A44622AFD32000F67C23 /* UIViewController+CardNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+CardNavigationController.swift"; sourceTree = "<group>"; };
 		A425A44822AFD32000F67C23 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		A425A44F22AFE8EF00F67C23 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
-		A425A45622AFEB7500F67C23 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A425A45822AFEB7600F67C23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A425A45A22AFEB7600F67C23 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		A425A45F22AFEB7700F67C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A425A46222AFEB7700F67C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A425A46422AFEB7700F67C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47AA1DA23533FE100B49450 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		A47AA1DB23533FEA00B49450 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A48BC9DF22AFBF060030EADF /* CardNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CardNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48BC9E222AFBF060030EADF /* CardNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardNavigationController.h; sourceTree = "<group>"; };
 		A48BC9E322AFBF060030EADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A48BC9E822AFBF060030EADF /* CardNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48BC9E822AFBF060030EADF /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48BC9ED22AFBF060030EADF /* CardNavigationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardNavigationControllerTests.swift; sourceTree = "<group>"; };
 		A48BC9EF22AFBF060030EADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4C69EC322BA393600084C9D /* UIViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerTests.swift; sourceTree = "<group>"; };
 		A4D3170622B5593A00DB7126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4D3170B22B66E9800DB7126 /* CardNavigationControllerAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardNavigationControllerAppearance.swift; sourceTree = "<group>"; };
-		A4D3171122B7F5F400DB7126 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
-		A4D3171322B7F72700DB7126 /* PageOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOneViewController.swift; sourceTree = "<group>"; };
-		A4D3171522B8B87600DB7126 /* PageTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A425A45322AFEB7500F67C23 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A4D3171722B8E12B00DB7126 /* CardNavigationController.framework in Frameworks */,
-				A425A46822AFEBA800F67C23 /* SnapKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A48BC9DC22AFBF060030EADF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A425A45022AFE8EF00F67C23 /* SnapKit.framework in Frameworks */,
+				A47AA2182353421000B49450 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,61 +104,30 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		A425A44E22AFE8EF00F67C23 /* Frameworks */ = {
+		A47AA1D723533FB300B49450 /* Deployment */ = {
 			isa = PBXGroup;
 			children = (
-				A425A44F22AFE8EF00F67C23 /* SnapKit.framework */,
+				A47AA1DA23533FE100B49450 /* Package.swift */,
 			);
-			name = Frameworks;
+			name = Deployment;
 			sourceTree = "<group>";
 		};
-		A425A45722AFEB7600F67C23 /* Example */ = {
+		A47AA1D923533FC300B49450 /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
-				A425A46D22AFEC5200F67C23 /* Source */,
-				A425A46E22AFEC5800F67C23 /* Supporting Files */,
+				A47AA1DB23533FEA00B49450 /* README.md */,
 			);
-			path = Example;
-			sourceTree = "<group>";
-		};
-		A425A46D22AFEC5200F67C23 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				A425A45822AFEB7600F67C23 /* AppDelegate.swift */,
-				A425A46F22AFF0D600F67C23 /* View Controllers */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		A425A46E22AFEC5800F67C23 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A425A45F22AFEB7700F67C23 /* Assets.xcassets */,
-				A425A46122AFEB7700F67C23 /* LaunchScreen.storyboard */,
-				A425A46422AFEB7700F67C23 /* Info.plist */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A425A46F22AFF0D600F67C23 /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				A425A45A22AFEB7600F67C23 /* RootViewController.swift */,
-				A4D3171122B7F5F400DB7126 /* IntroductionViewController.swift */,
-				A4D3171322B7F72700DB7126 /* PageOneViewController.swift */,
-				A4D3171522B8B87600DB7126 /* PageTwoViewController.swift */,
-			);
-			path = "View Controllers";
+			name = Documentation;
 			sourceTree = "<group>";
 		};
 		A48BC9D522AFBF060030EADF = {
 			isa = PBXGroup;
 			children = (
+				A47AA1D923533FC300B49450 /* Documentation */,
+				A47AA1D723533FB300B49450 /* Deployment */,
 				A48BC9E122AFBF060030EADF /* CardNavigationController */,
-				A48BC9EC22AFBF060030EADF /* CardNavigationControllerTests */,
-				A425A45722AFEB7600F67C23 /* Example */,
+				A48BC9EC22AFBF060030EADF /* Tests */,
 				A48BC9E022AFBF060030EADF /* Products */,
-				A425A44E22AFE8EF00F67C23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -213,8 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				A48BC9DF22AFBF060030EADF /* CardNavigationController.framework */,
-				A48BC9E822AFBF060030EADF /* CardNavigationControllerTests.xctest */,
-				A425A45622AFEB7500F67C23 /* Example.app */,
+				A48BC9E822AFBF060030EADF /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -228,13 +149,13 @@
 			path = CardNavigationController;
 			sourceTree = "<group>";
 		};
-		A48BC9EC22AFBF060030EADF /* CardNavigationControllerTests */ = {
+		A48BC9EC22AFBF060030EADF /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				A4D3172422BA0D4B00DB7126 /* Source */,
 				A4D3172322BA0D4200DB7126 /* Supporting Files */,
 			);
-			path = CardNavigationControllerTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		A4D3170A22B66DDE00DB7126 /* Protocols */ = {
@@ -284,26 +205,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A425A45522AFEB7500F67C23 /* Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A425A46722AFEB7700F67C23 /* Build configuration list for PBXNativeTarget "Example" */;
-			buildPhases = (
-				A425A45222AFEB7500F67C23 /* Sources */,
-				A425A45322AFEB7500F67C23 /* Frameworks */,
-				A425A45422AFEB7500F67C23 /* Resources */,
-				A425A46922AFEBB200F67C23 /* Carthage */,
-				A4D3171922B8E12B00DB7126 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A425A46B22AFEBDB00F67C23 /* PBXTargetDependency */,
-			);
-			name = Example;
-			productName = Example;
-			productReference = A425A45622AFEB7500F67C23 /* Example.app */;
-			productType = "com.apple.product-type.application";
-		};
 		A48BC9DE22AFBF060030EADF /* CardNavigationController */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A48BC9F322AFBF060030EADF /* Build configuration list for PBXNativeTarget "CardNavigationController" */;
@@ -318,13 +219,16 @@
 			dependencies = (
 			);
 			name = CardNavigationController;
+			packageProductDependencies = (
+				A47AA2172353421000B49450 /* SnapKit */,
+			);
 			productName = CardNavigationController;
 			productReference = A48BC9DF22AFBF060030EADF /* CardNavigationController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A48BC9E722AFBF060030EADF /* CardNavigationControllerTests */ = {
+		A48BC9E722AFBF060030EADF /* Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A48BC9F622AFBF060030EADF /* Build configuration list for PBXNativeTarget "CardNavigationControllerTests" */;
+			buildConfigurationList = A48BC9F622AFBF060030EADF /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
 				A48BC9E422AFBF060030EADF /* Sources */,
 				A48BC9E522AFBF060030EADF /* Frameworks */,
@@ -335,9 +239,9 @@
 			dependencies = (
 				A48BC9EB22AFBF060030EADF /* PBXTargetDependency */,
 			);
-			name = CardNavigationControllerTests;
+			name = Tests;
 			productName = CardNavigationControllerTests;
-			productReference = A48BC9E822AFBF060030EADF /* CardNavigationControllerTests.xctest */;
+			productReference = A48BC9E822AFBF060030EADF /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -350,9 +254,6 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Plum Fintech Limited";
 				TargetAttributes = {
-					A425A45522AFEB7500F67C23 = {
-						CreatedOnToolsVersion = 10.2.1;
-					};
 					A48BC9DE22AFBF060030EADF = {
 						CreatedOnToolsVersion = 10.2.1;
 						LastSwiftMigration = 1020;
@@ -371,31 +272,25 @@
 				Base,
 			);
 			mainGroup = A48BC9D522AFBF060030EADF;
+			packageReferences = (
+				A47AA2162353421000B49450 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = A48BC9E022AFBF060030EADF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A48BC9DE22AFBF060030EADF /* CardNavigationController */,
-				A48BC9E722AFBF060030EADF /* CardNavigationControllerTests */,
-				A425A45522AFEB7500F67C23 /* Example */,
+				A48BC9E722AFBF060030EADF /* Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A425A45422AFEB7500F67C23 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A425A46322AFEB7700F67C23 /* LaunchScreen.storyboard in Resources */,
-				A425A46022AFEB7700F67C23 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A48BC9DD22AFBF060030EADF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47AA1DC23533FEA00B49450 /* README.md in Resources */,
 				A4D3170722B5593A00DB7126 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,42 +304,7 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		A425A46922AFEBB200F67C23 /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
-			);
-			name = Carthage;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SnapKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		A425A45222AFEB7500F67C23 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A4D3171422B7F72700DB7126 /* PageOneViewController.swift in Sources */,
-				A425A45B22AFEB7600F67C23 /* RootViewController.swift in Sources */,
-				A4D3171222B7F5F400DB7126 /* IntroductionViewController.swift in Sources */,
-				A425A45922AFEB7600F67C23 /* AppDelegate.swift in Sources */,
-				A4D3171622B8B87600DB7126 /* PageTwoViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A48BC9DB22AFBF060030EADF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -468,11 +328,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A425A46B22AFEBDB00F67C23 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A48BC9DE22AFBF060030EADF /* CardNavigationController */;
-			targetProxy = A425A46A22AFEBDB00F67C23 /* PBXContainerItemProxy */;
-		};
 		A48BC9EB22AFBF060030EADF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A48BC9DE22AFBF060030EADF /* CardNavigationController */;
@@ -480,64 +335,7 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		A425A46122AFEB7700F67C23 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A425A46222AFEB7700F67C23 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		A425A46522AFEB7700F67C23 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = URBNY2UJHN;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/Example/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.plum.Example;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A425A46622AFEB7700F67C23 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = URBNY2UJHN;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/Example/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.plum.Example;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		A48BC9F122AFBF060030EADF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -671,10 +469,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/CardNavigationController/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -702,10 +497,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/CardNavigationController/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -727,7 +519,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = URBNY2UJHN;
-				INFOPLIST_FILE = "CardNavigationControllerTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -746,7 +538,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = URBNY2UJHN;
-				INFOPLIST_FILE = "CardNavigationControllerTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -762,15 +554,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A425A46722AFEB7700F67C23 /* Build configuration list for PBXNativeTarget "Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A425A46522AFEB7700F67C23 /* Debug */,
-				A425A46622AFEB7700F67C23 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A48BC9D922AFBF060030EADF /* Build configuration list for PBXProject "CardNavigationController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -789,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A48BC9F622AFBF060030EADF /* Build configuration list for PBXNativeTarget "CardNavigationControllerTests" */ = {
+		A48BC9F622AFBF060030EADF /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A48BC9F722AFBF060030EADF /* Debug */,
@@ -799,6 +582,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A47AA2162353421000B49450 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A47AA2172353421000B49450 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A47AA2162353421000B49450 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A48BC9D622AFBF060030EADF /* Project object */;
 }
