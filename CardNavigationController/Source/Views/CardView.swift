@@ -75,8 +75,8 @@ internal final class CardView: UIView
         self.container.addSubview(self.contentContainer)
         
         self.contentContainer.snp.makeConstraints { (make) in
-            make.left.equalToSuperview().inset(16.0)
-            make.right.equalToSuperview().inset(16.0)
+            make.left.equalToSuperview()
+            make.right.equalToSuperview()
             make.bottom.equalTo(self.buttonStackView.snp.top).offset(-15.0)
             make.top.equalToSuperview()
         }
