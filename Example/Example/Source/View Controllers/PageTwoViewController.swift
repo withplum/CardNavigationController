@@ -48,11 +48,11 @@ internal final class PageTwoViewController: IntroductionViewController
         self.icon.image = UIImage(named: "Plum")
         self.titleLabel.text = "👫"
         self.detailLabel.text = """
-        At Plum, we're on a mission to help everyone be financially better off.
+At Plum, we're on a mission to help everyone be financially better off.
         
-        People all over the world are making bad financial decisions every day, due to lack of financial education, antiquated financial systems and temptation.
+People all over the world are making bad financial decisions every day, due to lack of financial education, antiquated financial systems and temptation.
         
-        In the UK alone, 50% of people have less than £100 in savings. We believe we can change that with great technology, data science and behavioural theory.
+In the UK alone, 50% of people have less than £100 in savings. We believe we can change that with great technology, data science and behavioural theory.
 """
         
         // Close button

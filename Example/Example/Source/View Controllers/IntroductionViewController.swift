@@ -25,7 +25,6 @@ internal class IntroductionViewController: UIViewController
     internal let detailLabel: UILabel = {
         let view = UILabel()
         view.font = UIFont.systemFont(ofSize: 18.0, weight: .regular)
-        view.textAlignment = .center
         view.numberOfLines = 0
         
         return view
@@ -52,7 +51,7 @@ internal class IntroductionViewController: UIViewController
         self.view.addSubview(container)
         
         container.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview()
+            make.edges.equalToSuperview().inset(UIEdgeInsets(top: 0.0, left: 16.0, bottom: 0.0, right: 16.0))
         }
         
         // Stack view
