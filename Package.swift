@@ -14,7 +14,7 @@ let package = Package(
             targets: ["CardNavigationController"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/SnapKit/SnapKit", from: "5.0.1")
+        .package(url: "https://github.com/SnapKit/SnapKit", from: "5.7.1")
     ],
     targets: [
         .target(
